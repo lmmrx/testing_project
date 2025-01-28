@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1738030368157" clover="3.2.0">
+  <project timestamp="1738030368157" name="All files">
+    <metrics statements="25" coveredstatements="20" conditionals="23" coveredconditionals="16" methods="6" coveredmethods="5" elements="54" coveredelements="41" complexity="0" loc="25" ncloc="25" packages="1" files="4" classes="4"/>
+    <file name="add.js" path="D:\RDP\SOFTWARE TESTING\testing_project\src\functions\add.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="fetchData.js" path="D:\RDP\SOFTWARE TESTING\testing_project\src\functions\fetchData.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="getUser.js" path="D:\RDP\SOFTWARE TESTING\testing_project\src\functions\getUser.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+    </file>
+    <file name="userUtils.js" path="D:\RDP\SOFTWARE TESTING\testing_project\src\functions\userUtils.js">
+      <metrics statements="13" coveredstatements="8" conditionals="21" coveredconditionals="14" methods="3" coveredmethods="2"/>
+      <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="23" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="32" count="0" type="cond" truecount="0" falsecount="5"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
