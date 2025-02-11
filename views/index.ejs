@@ -14,15 +14,25 @@
             <input type="password" id="password" placeholder="password" />
 
             <button id="login-button">Submit</button>
+            <div id="submitCount"></div>
         </form>
 
         <p id="error-message" style="color: red;display: none;">Invalid email or password</p>
 
         <script>
+            var count = 0;
             document.getElementById('login-form').addEventListener('submit', 
             function(event) {
                 event.preventDefault();
 
+                count++; 
+                
+                document.getElementById('submitCount').innerHTML = `${count}`;
+
+                if(count > 1){
+                    throw new Error('You have submitted too many times')
+                }
+            
                 const email = document.getElementById('email').value;
 
                 const password = document.getElementById('password').value;
