@@ -14,20 +14,21 @@
             <br />
             <input type="password" id="password" placeholder="password" />
 
-            <button id="login-button" type="submit" onClick="loginSubmit()">Submit</button>
+            <button id="login-button" type="submit" onClick="loginSubmit(event)">Submit</button>
         </form>
-
-       
-       
     </body>
 
     <script>
-        var count = 0;
+        let submittedSuccessfully = false;
 
-        function loginSubmit(){
+        function loginSubmit(event){
+                event.preventDefault();
 
-                count++;
-
+                //Check if the form has been submitted already
+                if(submittedSuccessfully){
+                    alert("You have submitted too many times!");
+                    return;
+                }
 
                 const email = document.getElementById('email').value;
 
@@ -35,13 +36,11 @@
 
                 if(email == "test@example.com" && password == "password123"){
                     alert('Login Successful!');
+                    submittedSuccessfully = true;
                 } else {
                     alert('Invalid credentials');
                 }
-   //random comment
-                if(count > 1){
-                    throw new Error('You have submitted too many times');
-                }
+
          }
     </script>    
 </html>
